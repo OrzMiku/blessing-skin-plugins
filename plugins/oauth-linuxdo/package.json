@@ -1,0 +1,20 @@
+{
+  "name": "oauth-linuxdo",
+  "title": "Blessing\\OAuth\\LinuxDo::general.title",
+  "version": "1.0.0",
+  "description": "Blessing\\OAuth\\LinuxDo::general.description",
+  "author": "Community",
+  "url": "https://miku.show/",
+  "namespace": "Blessing\\OAuth\\LinuxDo",
+  "require": {
+    "blessing-skin-server": "^5|^6",
+    "oauth": "^1.0.0"
+  },
+  "enchants": {
+    "icon": {
+      "fa": "linux",
+      "faType": "fab",
+      "bg": "black"
+    }
+  }
+}

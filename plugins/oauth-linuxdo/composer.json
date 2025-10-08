@@ -1,0 +1,22 @@
+{
+  "name": "blessing/oauth-linuxdo",
+  "description": "OAuth plugin for LinuxDo",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Community"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "socialiteproviders/manager": "^4.0",
+    "psr/log": "^3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Blessing\\OAuth\\LinuxDo\\": "src/"
+    }
+  }
+}
